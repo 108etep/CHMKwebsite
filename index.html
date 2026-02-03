@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ЧМК - Металопрокат</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container header_container">
+       <a href="#" class="logo">
+      <img src="images/logo.png" alt="Логотип ЧМК - Металлургический комбинат">
+      </a>
+      <nav class="nav">
+        <ul>
+          <li class="nav__item"><a href="#">каталог</a></li>
+          <li class="nav__item"><a href="#">о компании</a></li>
+          <li class="nav__item"><a href="#">оставить заявку</a></li>
+        </ul>
+      </nav>
+      
+      <a href="tel:+79999999999" class="phone">+7 999 999 99 99</a>
+    </div>
+    <div class="container hero">
+      <div class="hero__desc">
+        <h1 class="hero__desc-title">Тут напишем чем <span>занимается компания</span></h1>
+        <p  class="hero__desc-p">Здесь немного поясняющего текста, который раскрывает заголовок</p>
+        <a href="#" class="hero__desc-btn">Оставить заявку</a>
+      </div>
+      <div class="hero__img">
+         <img src="images/hero-img.jpg" alt="Фото металлопрокатной продукции">
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="products">
+      <div class="container product">
+        <div class="product__card">
+          <p class="product__card-item">Чёрный металлопрокат</p>
+        </div>
+        <div class="product__card">
+          <p class="product__card-item">Нержавеющий металлопрокат</p>
+        </div>
+        <div class="product__card">
+          <p class="product__card-item">Цветной <br> металлопрокат</p>
+        </div>
+        <div class="product__card">
+          <p class="product__card-item">Услуги</p>
+        </div>
+      </div>
+    </section>
+    <section class="stats">
+    <div class="container stats__container">
+      <div class="stats__item">
+        <h1 class="stats__item-title">>50</h1>
+        <p class="stats__item-desc">Сотрудников</p>
+      </div>
+      <div class="stats__item">
+        <h1 class="stats__item-title">>5000</h1>
+        <p class="stats__item-desc">Тонн продукции за 2025 год</p>
+      </div>
+      <div class="stats__item">
+        <h1 class="stats__item-title">>5</h1>
+        <p class="stats__item-desc">Лет на рынке</p>
+      </div>
+  </div>
+</section>
+  </main>
+<footer class="contact-footer">
+  <div class="container contact-footer__container">
+    <h2 class="contact-footer__title">Свяжитесь с нами</h2>
+    
+    <div class="contact-footer__content">
+      <form class="contact-footer__form">
+        <p class="form__man">Заполните имя</p>
+        <div class="form-group">
+          <input id="contact-name" class="group__input" type="text" placeholder="Имя*" required>
+          <input id="contact-surname" class="group__input" type="text" placeholder="Фамилия" required>
+        </div>
+        <input id="contact-phone" class="group__input-tel" type="tel" placeholder="Номер телефона*" required>
+        <button type="submit">Отправить заявку</button>
+      </form>
+      
+      <div class="contact-footer__info">
+        <div class="contact-footer__infoaction">
+        <p class="contact-footer__info-text text__help">Так мы сможем быстрее помочь</p>
+        <p class="contact-footer__info-text text__call">Или сразу позвоните</p>
+        </div>
+        <a href="tel:+79999999999" class="contact-footer__phone">+7 999 999 99 99</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
