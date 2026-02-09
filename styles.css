@@ -245,11 +245,13 @@ main, footer, body{
 }
 
 .content-slide__products {
-  display: grid;
-  justify-content: left;
-  margin-left: 60px;
-  max-width: 1078px;
-  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: left;
+    margin-left: 60px;
+    max-width: 1078px;
+    position: relative;
 }
 
 .content-slide__products span {
