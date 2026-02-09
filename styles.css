@@ -114,7 +114,7 @@ main, footer, body{
   display: flex;
   width: 100%;
   max-width: 1840px;
-  height: 784px; /* Фиксированная высота по макету */
+  height: 784px; 
   gap: 20px;
   margin: 0 auto;
 }
@@ -122,9 +122,9 @@ main, footer, body{
   height: 584px;
 }
 
-/* Растянуть карту на всю зону content-swiper в секции "О компании" */
+
 .slider-container__company .content-swiper {
-  padding: 0; /* убираем отступы внутри */
+  padding: 0; 
 }
 
 .slider-container__company .content-slide {
@@ -138,7 +138,7 @@ main, footer, body{
   display: flex;
   width: 100%;
   height: 100%;
-  padding: 0; /* карта будет доходить до границ */
+  padding: 0; 
   max-width: none;
   min-width: 0;
   align-items: stretch;
@@ -218,7 +218,7 @@ main, footer, body{
 
 .content-swiper {
   flex: 1;
-  background: #00aaff;
+  background: #006ED4;
   border-radius: 60px;
   padding: 20px;
   display: flex;
@@ -245,9 +245,7 @@ main, footer, body{
 }
 
 .content-slide__products {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
+  display: grid;
   justify-content: left;
   margin-left: 60px;
   max-width: 1078px;
@@ -365,6 +363,47 @@ main, footer, body{
   font-weight: 700;
   font-size: 45px;
   height: 100%;
+}
+
+.products-document{
+  font-size: 37px;
+  color: #fff;
+  height: 130px;
+}
+.slide__products-document{
+  margin-top: 40px;
+  display: grid!important;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px 20px; 
+  margin-left: 60px;
+  max-width: 1078px;
+  position: relative;
+  text-align: left;
+  height: 80%!important;
+
+}
+.products-document:nth-child(odd) {
+  margin-left: 57px;
+}
+
+
+
+.document-title{
+  font-size: 37px;
+  margin-bottom: 15px;
+}
+.document-link{
+  font-size: 32px;
+  text-decoration: none;
+  color: #006ED4;
+  background-color: #fff;
+  align-items: start;
+  padding: 10px 20px;
+  border-radius: 60px;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  width: 172px;
+  font-weight: 500;
 }
 .stats{
   margin-top: 130px;
