@@ -278,6 +278,57 @@ main, footer, body{
   border-radius: 60px 60px 0 60px;
   box-shadow: 0 0 23px -10px rgb(0 0 0);
 }
+.products-requisite-title{
+  font-size: 37px;
+  margin-top: 20px;
+  color: #fff;
+  height: 40px;
+  max-width: 200px;
+  margin-bottom: 10px;
+ 
+}
+.slide__products-requisite{
+  display: grid!important;
+  height: auto!important;
+  padding-left: 60px!important;
+
+}
+.products-requisite-desc{
+  display: grid;
+  color: #fff;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  text-align: left;
+  gap: 10px 50px;
+  margin-bottom: 200px;
+ 
+}
+
+.slide__products-requisite .requsite-item {
+  margin-left: 0 !important;
+}
+.requsite-item{
+  margin-left: 60px;
+  font-weight: 500;
+  font-size: 20px;
+  
+}
+.requisite__contact{
+  max-width: 545px;
+  text-align: left;
+}
+.requisite__contact-adress{
+  font-size: 37px;
+  color: #fff;
+  margin-bottom: 36px;
+  line-height: 40px;
+}
+.requisite__contact-phone{
+  font-size: 37px;
+  color: #fff;
+  text-decoration: none;
+}
+
 .hero{
    margin-top: 60px;
    border: 1px solid #0066ff;
@@ -456,7 +507,11 @@ main, footer, body{
   color: white;
 }
 .contact-footer__container{
-  background: linear-gradient(135deg, #0066FF 0%, #0084FF 100%);
+  background: linear-gradient(
+    135deg,
+    #0077FF 0%,   /* Светлый синий в начале */
+    #0044CC 100%  /* Темный синий в конце */
+  ) !important;
   border-radius: 40px;
   display: block;
   margin-bottom: 40px;
